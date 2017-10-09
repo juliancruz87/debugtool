@@ -1,11 +1,13 @@
 ﻿<Properties RefactoringSettings.EnableRefactorings="True" StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TextureFormatValidator.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Tool/DebugCollector.cs">
     <Files>
-      <File FileName="Assets/TextureFormatValidator.cs" Line="27" Column="36" />
-      <File FileName="Assets/DebugUGUI.cs" Line="13" Column="33" />
-      <File FileName="Assets/Demo.cs" Line="8" Column="2" />
-      <File FileName="Assets/DebugCollector.cs" Line="26" Column="3" />
+      <File FileName="Assets/Scripts/Tool/DebugUGUI.cs" Line="38" Column="31" />
+      <File FileName="Assets/Scripts/Tool/DebugMethodAttribute.cs" Line="7" Column="46" />
+      <File FileName="Assets/Scripts/Tool/DebugMethodData.cs" Line="26" Column="49" />
+      <File FileName="Assets/Scripts/TextureFormatValidator.cs" Line="35" Column="3" />
+      <File FileName="Assets/Scripts/Tool/DebugCollector.cs" Line="50" Column="5" />
+      <File FileName="Assets/Scripts/Tool/AttributeUtil.cs" Line="6" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

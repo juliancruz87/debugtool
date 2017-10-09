@@ -6,10 +6,13 @@ using System.Linq;
 
 public class TextureFormatValidator : MonoBehaviour 
 {
+	[SerializeField]
+	private int value = 10;
+
 	private List<TextureFormat> availableFormats = new List<TextureFormat> ();
-	private string log = "The number of texture formats available for this graphics card on {0} are {1}";
 	private string availableFormatsList;
 
+	[DebugMethod("Get all textures available for Platform")]
 	private void GetAllAvailableFormatsByPlatform ()
 	{
 		availableFormats.Clear ();
@@ -24,15 +27,16 @@ public class TextureFormatValidator : MonoBehaviour
 		}
 
 		availableFormats.ForEach (t => availableFormatsList+= t.ToString () +"\n" );
-		Debug.Log (availableFormatsList);
+		Debug.Log (availableFormats.Count + " - " + value);
 	}
 
-	private void OnGUI ()
+	private void NewMethod ()
 	{
-		if (GUI.Button (new Rect (10, 10, 250, 90), "Get All Available Texture Formats"))
-			GetAllAvailableFormatsByPlatform ();
+		
+	}
 
-		if (availableFormats.Count > 0)
-			GUI.Label (new Rect (10, 120, 250, 90), string.Format (log, Application.platform, availableFormats.Count) );
+	private static void NewMethod2 ()
+	{
+
 	}
 }

@@ -34,8 +34,8 @@ public class DebugUGUI : MonoBehaviour
 				if (index >= buttonsNumber)
 					break;
 				
-				if (GUI.Button (CreateRect (i, j), collector.Methods[index].Name))
-					Debug.Log (index);
+				if (GUI.Button (CreateRect (i, j), collector.Methods [index].Name))
+					collector.Methods [i].Run ();
 		
 				index++;
 			}
